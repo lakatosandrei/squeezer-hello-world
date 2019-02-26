@@ -2,7 +2,7 @@
   bin: npm
   args:
     - 'install'
-    - '--silent'
+    - '--loglevel=error'
     - 'yarn'
 - description: Installing project's packages
   bin: ${project.path}/node_modules/.bin/yarn
