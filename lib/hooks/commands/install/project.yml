@@ -1,8 +1,5 @@
 - description: Installing project's packages
-  bin: ${project.path}/node_modules/.bin/yarn
+  bin: npm
   args:
+    - '--loglevel=error'
     - 'install'
-    - '--silent'
-    - '--no-progress'
-    - '--non-interactive'
-    - '--prefer-offline'
